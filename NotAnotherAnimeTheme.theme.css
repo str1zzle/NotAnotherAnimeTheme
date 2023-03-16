@@ -21,7 +21,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  --theme-background-image: url(https://images.hdqwalls.com/download/anime-girls-with-big-guns-8k-rf-1920x1080.jpg);
 
   /*
     Main Theme Color
@@ -36,7 +36,7 @@
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+  --home-icon-image: url(https://i.imgur.com/8bhwx6b.png);
 
   /*
     Change your friends icon image position
@@ -50,17 +50,17 @@
 
   /*
     Server Listing Width
-    Single Column:  62px
+    Single Column:  72px
     Double Column:  126px
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 126px;
+  --server-listing-width: 72px;
 
   /*
     Font Size
   */
-  --font-size: 100%;
+  --font-size: 150%;
 
   /*
     Mention colors
@@ -78,7 +78,7 @@
     Change the unread server animation.
     Replace it with "none" in order to remove any animations and use the main color instead
   */
-  --unread-server-animation: rainbow;
+  --unread-server-animation: none;
 
   /*
     Video / Screen share buttons
@@ -91,21 +91,21 @@
   /*
     Role Title Color
   */
-  --member-listing-role-color: var(--main-theme-color);
+  --member-listing-role-color: white;
 
   /*
     Small User Popout
   */
-  --small-user-popout-background-image: var(--theme-background-image);
-  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
-  --small-user-popout-background-image-position: center;
+  *--small-user-popout-background-image: var(--theme-background-image);
+  *--small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  *--small-user-popout-background-image-position: center;
 
   /*
     Big User Popout
   */
-  --big-user-popout-background-image: var(--theme-background-image);
-  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
-  --big-user-popout-background-image-position: center;
+  *--big-user-popout-background-image: var(--theme-background-image);
+  *--big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  *--big-user-popout-background-image-position: center;
 
   /*
     Code Markup
